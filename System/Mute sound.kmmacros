@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>678780548.16842401</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>31</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SystemAction</string>
+						<key>SystemAction</key>
+						<string>MuteVolume</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>462087397.73014897</real>
+				<key>ModificationDate</key>
+				<real>460372029.35580301</real>
+				<key>Name</key>
+				<string>Mute sound</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>Sleep</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>830D3AFE-F4DB-4676-8143-2C91F583250F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>System</string>
+		<key>ToggleMacroUID</key>
+		<string>E725F61D-7E9E-4252-8745-ABF88979F9FD</string>
+		<key>UID</key>
+		<string>6FF66D7F-1F39-425B-9800-14874BDD04B3</string>
+	</dict>
+</array>
+</plist>
