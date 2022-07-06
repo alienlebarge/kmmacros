@@ -26,9 +26,9 @@
 				<key>CreationDate</key>
 				<real>462087397.73014897</real>
 				<key>ModificationDate</key>
-				<real>460372029.35580301</real>
+				<real>678780657.80883205</real>
 				<key>Name</key>
-				<string>Mute sound</string>
+				<string>Mute sound when Mac go to sleep</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
