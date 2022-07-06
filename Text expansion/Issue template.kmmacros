@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>483858815.278207</real>
+		<key>DisabledMacs</key>
+		<array>
+			<string>9D4EF650-377F-4290-B85C-E6A7919582DB</string>
+		</array>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>135</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>FrontWindow</string>
+									<key>FrontWindowConditionType</key>
+									<string>TitleContains</string>
+									<key>FrontWindowTitle</key>
+									<string>Bureau externe</string>
+									<key>IsFrontApplication</key>
+									<true/>
+								</dict>
+								<dict>
+									<key>ConditionType</key>
+									<string>FrontWindow</string>
+									<key>FrontWindowConditionType</key>
+									<string>TitleContains</string>
+									<key>FrontWindowTitle</key>
+									<string>Jira</string>
+									<key>IsFrontApplication</key>
+									<true/>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>Any</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>ActionUID</key>
+								<integer>137</integer>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Text</key>
+								<string>### Description
+&lt;!-- Include a high level description of the feature or error here including steps of how to recreate if applicable. Include any benefits, challenges or considerations. Can be short and sweet.--&gt;
+
+...
+
+### Ask
+&lt;!-- Describe the desired behavior and what would deem this issue/bug/feature complete. --&gt;
+
+...
+
+### To Do
+
+- [ ] Steps
+- [ ] To
+- [ ] Complete/Fix
+
+### Additional Info
+&lt;!-- Include any images, steps to recreate, notes, emojis, or whatever. --&gt;
+
+...</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>ActionUID</key>
+								<integer>136</integer>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Text</key>
+								<string>h5. Description
+{color:lightgray}_Include a high level description of the feature or error here including steps of how to recreate if applicable. Include any benefits, challenges or considerations. Can be short and sweet._{color}
+
+...
+
+h5. Ask
+{color:lightgray}_Describe the desired behavior and what would deem this issue/bug/feature complete._{color}
+
+...
+
+h5. To Do
+
+- [ ] Steps
+- [ ] To
+- [ ] Complete/Fix
+
+h5. Additional Info
+{color:lightgray}_Include any images, steps to recreate, notes, emojis, or whatever._{color}
+
+...</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>540295155.12812901</real>
+				<key>ModificationDate</key>
+				<real>591276316.36955202</real>
+				<key>Name</key>
+				<string>Issue template</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;issue</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>5EE3D25E-7F78-4E27-931B-98257B0CE4C8</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text expansion</string>
+		<key>ToggleMacroUID</key>
+		<string>CEFA41B9-F3A5-4209-AF28-5CA7B3A21D1E</string>
+		<key>UID</key>
+		<string>18D89A99-F692-46B1-AA4F-D7D8BA38894B</string>
+	</dict>
+</array>
+</plist>
