@@ -75,9 +75,24 @@
 									<key>ConditionType</key>
 									<string>Application</string>
 								</dict>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.spotify.client</string>
+										<key>Name</key>
+										<string>Spotify</string>
+										<key>NewFile</key>
+										<string>/Applications/Spotify.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>Hidden</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
 							</array>
 							<key>ConditionListMatch</key>
-							<string>All</string>
+							<string>Any</string>
 						</dict>
 						<key>ElseActions</key>
 						<array>
@@ -120,7 +135,7 @@
 								<key>MacroActionType</key>
 								<string>ActivateApplication</string>
 								<key>ReopenWindows</key>
-								<false/>
+								<true/>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -134,7 +149,7 @@
 				<key>CustomIconData</key>
 				<string>KMEP-GenericApplication-/Applications/Spotify.app</string>
 				<key>ModificationDate</key>
-				<real>696404336.91152203</real>
+				<real>696407146.46623397</real>
 				<key>Name</key>
 				<string>Open/Hide music app</string>
 				<key>Triggers</key>
