@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>483858815.278207</real>
+		<key>DisabledMacs</key>
+		<array>
+			<string>9D4EF650-377F-4290-B85C-E6A7919582DB</string>
+		</array>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>2391</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>(flag) Indicateur ajouté
+
+%|%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>695210775.844684</real>
+				<key>CustomIconData</key>
+				<string>KMEC=Rounded=KMCOLOR:250,245,255,255=🚩=86=14=16=1=KMCOLOR:0,0,0,255</string>
+				<key>ModificationDate</key>
+				<real>697021839.36820304</real>
+				<key>Name</key>
+				<string>Add flag in Jira</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;flagon</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>29AACD51-CC7A-4B0B-8996-D5D48D25CDBC</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text expansion</string>
+		<key>ToggleMacroUID</key>
+		<string>CEFA41B9-F3A5-4209-AF28-5CA7B3A21D1E</string>
+		<key>UID</key>
+		<string>18D89A99-F692-46B1-AA4F-D7D8BA38894B</string>
+	</dict>
+</array>
+</plist>
